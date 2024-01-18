@@ -1,14 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
+    font-family: 'Poppins', sans-serif;}
 
+body{
+    background-color: rgb(210, 210, 210);
+}
 nav{
     background-color: rgb(26, 35, 46);
     color: white;
+    /* width: 100vw; */
     padding: 4px 13px;
     height: fit-content;
     display: flex;
@@ -57,4 +63,125 @@ nav{
     display: flex;
     /* flex-direction: column; */
     font-size: 20px;
+    font-weight: bolder;
+}
+
+.categories{
+    /* width: 100vw; */
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(35,47,62);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 54px 10px 24px;
+    font-size: 14px;
+}
+
+.main{
+    background-image: url("Images/PC_HERO_NTA_1_2X_V2._CB584441493_.jpg");
+    background-repeat: no-repeat;
+    /* height: 100vh; */
+}
+
+.empty{
+    height: 443px;
+    width: 100vw;
+    padding: 10px;
+    position: relative;
+    z-index: 0;
+}
+
+.box{
+    background-color: white;
+    height: fit-content;
+    width: 307px;
+    /* width: fit-content; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.text{
+    font-size: 12px;
+    font-weight: lighter;
+    margin-top: 1px;
+
+}
+
+.img-text{
+    max-width: 143px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-flex{
+    display: flex;
+    gap: 22px;
+}
+
+.offer{
+    font-size: 15px;
+}
+
+.sign-in-box{
+    background-color: rgb(255, 213, 0);
+    border: none;
+    border-radius: 8px;
+    padding: 3px 99px;
+}
+
+.big-flex{
+    padding: 30px;
+    display: flex;
+    gap: 25px;
+
+}
+
+.big-two{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.sec-two{
+    display: flex;
+    gap: 20px;
+    justify-content:center;
+}
+
+.box2{
+    background-color: rgb(232, 232, 232);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 240px;
+    align-items: center;
+}
+
+.sec-two-off{
+    background-color: rgb(128,0,0);
+    padding: 5px 12px;
+    font-size: 10px;
+    color: white;
+}
+
+.sec-two-rd{
+    font-size: 12px;
+}
+
+.sec-two-text-flex{
+    display: flex;
+    gap: 6px;
+    margin: auto;
+}
+
+.sec-two-three{
+    margin: 20px 0px;
+    
+}
+
+.bold-text{
+    font-size: 25px;
+    font-weight: bolder;
 }
