@@ -168,12 +168,14 @@ nav{
 
 .sec-two-rd{
     font-size: 12px;
+    color: rgb(128,0,0);
 }
 
 .sec-two-text-flex{
     display: flex;
     gap: 6px;
     margin: auto;
+    align-items: center;
 }
 
 .sec-two-three{
@@ -184,4 +186,101 @@ nav{
 .bold-text{
     font-size: 25px;
     font-weight: bolder;
+    padding: 5px;
+}
+
+#makeup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#aero{
+    margin: 20px 0px;
+}
+
+.seperation{
+    background-color: gray;
+    height: 1px;
+    width: 100vw;
+    margin: 20px 0px;
+}
+
+#anti-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+
+.btt{
+    background-color: rgb(54, 73, 96);
+    color: white;
+    padding: 10px;
+    /* width: 100vw; */
+    text-align: center;
+}
+
+.bold{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 120px;
+    font-size: 15px;
+    background-color: rgb(35,47,62);
+    color: white;
+    list-style: none;
+    
+}
+
+.list{
+    list-style: none;
+}
+
+.footer button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 40px;
+    border-radius: 5px;
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.foot1{
+    background-color: rgb(22, 30, 40);
+    color: white;
+    display: flex;
+    gap: 100px;
+    justify-content:center;
+    /* text-align: center; */
+    align-items: center;
+    padding: 30px 60px 60px 60px;
+
+    
+
+}
+
+.gap{
+    height: fit-content;
+    width: 300px;
+    
+}
+
+.fooooter{
+    /* padding: 30px 0px; */
+    text-align: center;
+    background-color: rgb(22, 30, 40);
+    color: white;
 }
