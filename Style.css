@@ -14,7 +14,7 @@ body{
 nav{
     background-color: rgb(26, 35, 46);
     color: white;
-    /* width: 100vw; */
+    width: 100vw;
     padding: 4px 13px;
     height: fit-content;
     display: flex;
