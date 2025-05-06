@@ -1,6 +1,8 @@
 Amazon Clone for CSS Practice ;
 Working on the responsiveness!
 
+Tech stack used : HTML , CSS
+
 
 
 ![Screenshot 2025-05-03 214757](https://github.com/user-attachments/assets/384bdcec-4477-4830-bcd4-964bf1845612)
